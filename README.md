@@ -19,62 +19,87 @@
 - **Proposed Solution**: Utilise AI to identify redundancies in the code
 
 ---
+Here's the generated documentation for points 2 to 6 based on the uploaded file:
+
+---
 
 ### Technologies Used
-
-- Python 3.12
-- Python modules:
-    sklearn
-    pandas
+- **Python**: Primary programming language used for building the model and data processing.
+- **pandas**: A library used for data manipulation and analysis, specifically to load and manage the firmware dataset.
+- **scikit-learn**: A machine learning library that provides utilities for preprocessing (CountVectorizer), model building (RandomForestClassifier), and evaluation (train_test_split, accuracy_score, classification_report).
+  - **CountVectorizer**: Used to convert text data into numerical data (Bag of Words model).
+  - **RandomForestClassifier**: Used for the classification task of identifying efficient and inefficient firmware code.
+- **Jupyter Notebook (Optional)**: For experimenting with and running the code.
 
 ---
 
 ### Installation and Setup
-1. Install the technologies used
-2. Download the code file
-3. 
+
+#### Prerequisites:
+Ensure you have Python 3.x installed on your system. You will also need `pip` for installing the required packages.
+
+#### Installation Steps:
+1. Clone the repository or download the project files to your local machine.
+2. Navigate to the project directory:
+   ```bash
+   cd path_to_project_directory
+   ```
+3. Install the required Python packages:
+   ```bash
+   pip install pandas scikit-learn
+   ```
+4. Ensure you have a dataset in CSV format (`firmware_code_dataset.csv`) containing two columns: 
+   - `code`: The firmware code snippets.
+   - `label`: The corresponding labels (0 for efficient, 1 for inefficient code).
 
 ---
 
 ### Usage
-It can be used to identify whether code has any redundancies.
+
+1. **Load Dataset**:
+   Ensure your dataset is in the project directory. The dataset should contain firmware code snippets and their labels (efficient or inefficient).
+
+2. **Run the Code**:
+   Execute the script (`code.py`) to train and evaluate the Random Forest classifier:
+   ```bash
+   python code.py
+   ```
+
+3. **Model Output**:
+   - The script will output the **accuracy score** and **classification report**, including precision, recall, and F1-score for each class (efficient and inefficient code).
+   - This will help you understand how well the model performs in classifying firmware code.
 
 ---
 
 ### Features
-The key feature of the AI model is to identify redundancies in code.
+
+- **Text Preprocessing with Bag of Words**: Converts raw firmware code into numerical data using the Bag of Words approach, which allows for the application of machine learning models.
+  
+- **Random Forest Classifier**: A robust ensemble method is used to classify firmware code as efficient or inefficient.
+
+- **Model Evaluation**:
+  - **Accuracy**: Provides the overall accuracy of the model on the test dataset.
+  - **Classification Report**: A detailed report showing performance metrics like precision, recall, and F1-score for each label (efficient and inefficient).
 
 ---
 
 ### Architecture
-The program is a machine learning model that uses a Random Forest Classifier to analyze firmware code snippets, categorizing them as either efficient or inefficient based on a Bag of Words (BoW) model.
 
-Imports:
-pandas: For data handling and reading the dataset.
-CountVectorizer: To convert text data (firmware code) into numerical features using a Bag of Words approach.
-train_test_split: To split the dataset into training and testing sets.
-RandomForestClassifier: Machine learning model used for classification.
-accuracy_score and classification_report: For evaluating the model's performance.
+1. **Data Loading**:
+   - The firmware dataset is loaded using `pandas` from a CSV file, which contains code snippets and labels.
 
-Data Loading:
-The code reads a dataset (firmware_code_dataset.csv) containing firmware code snippets.
-The dataset has two columns: code (the firmware code) and label (0 for efficient code, 1 for inefficient/redundant code).
+2. **Preprocessing**:
+   - **Bag of Words**: The firmware code snippets are tokenized and converted into a matrix of word counts using `CountVectorizer`.
 
-Data Preprocessing:
-The code column is converted into a numerical representation using the Bag of Words model (using CountVectorizer).
-Labels (y) are extracted for classification (0 = efficient, 1 = inefficient).
+3. **Model Training**:
+   - **Random Forest Classifier**: A machine learning model with 100 estimators (decision trees) is trained on the Bag of Words features to classify the code efficiency.
 
-Train-Test Split:
-The dataset is split into training (70%) and testing (30%) sets using train_test_split.
+4. **Train-Test Split**:
+   - The dataset is split into a 70% training set and a 30% testing set using `train_test_split`.
 
-Model Training:
-A Random Forest Classifier is initialized and trained on the training data (X_train and y_train).
-
-Prediction:
-The trained model makes predictions on the test set (X_test).
-
-Model Evaluation:
-The model's accuracy is calculated using accuracy_score.
-A detailed classification report (precision, recall, F1-score) is generated using classification_report.
+5. **Prediction and Evaluation**:
+   - The model makes predictions on the test set.
+   - Model accuracy is computed, and a detailed classification report is generated, giving performance insights for each class.
 
 ---
+
