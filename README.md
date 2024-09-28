@@ -37,12 +37,12 @@
 ---
 
 ### Usage
-
+It can be used to identify whether code has any redundancies.
 
 ---
 
 ### Features
-The key features include being able to 
+The key feature of the AI model is to identify redundancies in code.
 
 ---
 
