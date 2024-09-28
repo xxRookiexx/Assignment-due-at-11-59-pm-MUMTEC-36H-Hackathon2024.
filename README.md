@@ -16,90 +16,127 @@
 ### Project Overview
 
 - **Problem Statement**: Firmware plays a crucial role in the functioning of hardware devices, providing the low-level control required for operation. It also involves time and resources consuming processes. However, traditional firmware development often faces challenges related to performance optimization,  resource management and adaptability to new hardware. Leveraging AI can revolutionise firmware development by automating complex tasks and enhancing performance.
-- **Proposed Solution**: Utilise AI to identify redundancies in the code
+- **Proposed Solution**: Develop an AI model that uses Bag of Words (BoW) model to analyse code and predict its redundancy. 
 
----
-Here's the generated documentation for points 2 to 6 based on the uploaded file:
+- **Additional Problem Statemeent**: The most main problem associate with our digital industry identity system are certificate fraud, fake credentials, slow verification processes, and data breaches. To overcome this problem, there is a need of decentralized identity technology which it helps create fraud-proof credentials and empowers verifying organizations to instantly check the authenticity of those credentials. Individuals fully own and control their digital identity and credentials without relying on any third party/centralized server to prove their claims.   
+- **Proposed Solution**: Blockchain-Based Identity Management System: This is a smart contract written in Solidity for managing decentralized identity on the Ethereum blockchain. It allows user registration, token-based identity verification, and permission/role management through a smart contract.
 
 ---
 
 ### Technologies Used
-- **Python**: Primary programming language used for building the model and data processing.
-- **pandas**: A library used for data manipulation and analysis, specifically to load and manage the firmware dataset.
-- **scikit-learn**: A machine learning library that provides utilities for preprocessing (CountVectorizer), model building (RandomForestClassifier), and evaluation (train_test_split, accuracy_score, classification_report).
-  - **CountVectorizer**: Used to convert text data into numerical data (Bag of Words model).
-  - **RandomForestClassifier**: Used for the classification task of identifying efficient and inefficient firmware code.
-- **Jupyter Notebook (Optional)**: For experimenting with and running the code.
+
+#### AI-Based Firmware Code Analysis
+- **Python**: The main programming language for this project.
+- **pandas**: For handling and manipulating the dataset.
+- **scikit-learn**: Provides machine learning models and utilities, such as Random Forest, CountVectorizer, and evaluation metrics.
+  - **CountVectorizer**: Converts firmware code snippets into a numerical Bag of Words format.
+  - **RandomForestClassifier**: The classification model used to predict code efficiency.
+
+#### Blockchain-Based Identity Management System
+- **Solidity**: A high-level programming language for writing smart contracts on the Ethereum blockchain.
+- **Ethereum Blockchain**: The decentralized platform where the smart contract is deployed and interacts with user accounts.
+- **Remix IDE** (Optional): A browser-based IDE for writing and deploying Solidity contracts.
+- **MetaMask** (Optional): An Ethereum wallet for deploying and interacting with the smart contract.
 
 ---
 
 ### Installation and Setup
 
-#### Prerequisites:
-Ensure you have Python 3.x installed on your system. You will also need `pip` for installing the required packages.
-
-#### Installation Steps:
-1. Clone the repository or download the project files to your local machine.
-2. Navigate to the project directory:
-   ```bash
-   cd path_to_project_directory
-   ```
-3. Install the required Python packages:
+#### AI-Based Firmware Code Analysis
+1. **Install Dependencies**:
+   Ensure you have Python installed. Then, install the required packages using:
    ```bash
    pip install pandas scikit-learn
    ```
-4. Ensure you have a dataset in CSV format (`firmware_code_dataset.csv`) containing two columns: 
-   - `code`: The firmware code snippets.
-   - `label`: The corresponding labels (0 for efficient, 1 for inefficient code).
+
+2. **Prepare the Dataset**:
+   Ensure you have a CSV file named `firmware_code_dataset.csv` with columns `code` (firmware code snippets) and `label` (0 for efficient, 1 for inefficient).
+
+#### Blockchain-Based Identity Management System
+1. **Set up MetaMask**:
+   Install MetaMask and connect to an Ethereum test network such as Ropsten or Ganache (for local testing).
+
+2. **Open Remix IDE**:
+   Compile the Solidity contract in Remix using version `^0.8.0`.
+
+3. **Deploy the Contract**:
+   Deploy the smart contract either to a local blockchain (Ganache) or a testnet using MetaMask.
 
 ---
 
 ### Usage
 
-1. **Load Dataset**:
-   Ensure your dataset is in the project directory. The dataset should contain firmware code snippets and their labels (efficient or inefficient).
-
-2. **Run the Code**:
-   Execute the script (`code.py`) to train and evaluate the Random Forest classifier:
+#### AI-Based Firmware Code Analysis
+1. **Run the Script**:
+   After placing the dataset in the same directory, run the Python script:
    ```bash
    python code.py
    ```
 
-3. **Model Output**:
-   - The script will output the **accuracy score** and **classification report**, including precision, recall, and F1-score for each class (efficient and inefficient code).
-   - This will help you understand how well the model performs in classifying firmware code.
+2. **Output**:
+   - The script will output the model's accuracy and a classification report, showing the performance for efficient and inefficient code snippets.
+
+#### Blockchain-Based Identity Management System
+1. **Register a New User**:
+   Call the `registerUser` function with your public key as an argument to register yourself.
+   ```solidity
+   registerUser("your_public_key");
+   ```
+
+2. **Generate a Token**:
+   Users can generate a token with an expiry time to be used for identity verification.
+   ```solidity
+   generateToken(duration_in_seconds);
+   ```
+
+3. **Admin Functions**:
+   Admins can assign or revoke permissions, and assign roles to users.
+   ```solidity
+   assignPermission(userAddress, "permissionName");
+   revokePermission(userAddress, "permissionName");
+   assignRole(userAddress, 1); // Assign admin role
+   ```
 
 ---
 
 ### Features
 
-- **Text Preprocessing with Bag of Words**: Converts raw firmware code into numerical data using the Bag of Words approach, which allows for the application of machine learning models.
-  
-- **Random Forest Classifier**: A robust ensemble method is used to classify firmware code as efficient or inefficient.
+#### AI-Based Firmware Code Analysis
+- **Text Vectorization**: Uses the Bag of Words model to convert firmware code into numerical features.
+- **Random Forest Classifier**: Classifies firmware code snippets into efficient and inefficient categories.
+- **Performance Evaluation**: Provides accuracy scores and a detailed classification report.
 
-- **Model Evaluation**:
-  - **Accuracy**: Provides the overall accuracy of the model on the test dataset.
-  - **Classification Report**: A detailed report showing performance metrics like precision, recall, and F1-score for each label (efficient and inefficient).
-
----
-
-### Architecture
-
-1. **Data Loading**:
-   - The firmware dataset is loaded using `pandas` from a CSV file, which contains code snippets and labels.
-
-2. **Preprocessing**:
-   - **Bag of Words**: The firmware code snippets are tokenized and converted into a matrix of word counts using `CountVectorizer`.
-
-3. **Model Training**:
-   - **Random Forest Classifier**: A machine learning model with 100 estimators (decision trees) is trained on the Bag of Words features to classify the code efficiency.
-
-4. **Train-Test Split**:
-   - The dataset is split into a 70% training set and a 30% testing set using `train_test_split`.
-
-5. **Prediction and Evaluation**:
-   - The model makes predictions on the test set.
-   - Model accuracy is computed, and a detailed classification report is generated, giving performance insights for each class.
+#### Blockchain-Based Identity Management System
+- **User Registration**: Allows users to register their identity by storing their Ethereum address and public key.
+- **Token-Based Identity Verification**: Users can generate time-limited tokens for identity verification.
+- **Role Management**: Admins can assign or revoke roles (admin/user) to control access to certain functions.
+- **Permission System**: Admins can assign or revoke permissions for specific users.
+- **Event Logging**: Logs events like user registration, token generation, and permission/role changes for accountability.
 
 ---
 
+### 6. Architecture
+
+#### AI-Based Firmware Code Analysis
+1. **Data Loading**: Loads the firmware dataset from a CSV file.
+2. **Preprocessing**: Uses the Bag of Words model to convert text data (firmware code) into numerical vectors.
+3. **Model Training**: A Random Forest Classifier is trained on the processed data to classify code as efficient or inefficient.
+4. **Train-Test Split**: The dataset is split into 70% training and 30% testing sets for evaluation.
+5. **Evaluation**: Accuracy and classification reports are generated to assess the model's performance.
+
+#### Blockchain-Based Identity Management System
+1. **User Struct**: Defines user data, including ID, address, public key, and role.
+2. **Mappings**:
+   - **User Mapping**: Stores user details using their Ethereum address as the key.
+   - **Permission Mapping**: Nested mappings that link user addresses to permissions.
+3. **Modifiers**:
+   - **onlyAdmin**: Restricts certain functions to admin users only.
+4. **Core Functions**:
+   - **registerUser**: Registers a new user with a public key.
+   - **generateToken**: Generates a token for identity verification with a specified expiry time.
+   - **assignPermission**: Allows admins to assign permissions to users.
+   - **revokePermission**: Admins can revoke permissions.
+   - **assignRole**: Admins can assign roles to users (regular or admin).
+   - **verifyIdentity**: Verifies a user’s identity by checking if their token has expired.
+
+---
