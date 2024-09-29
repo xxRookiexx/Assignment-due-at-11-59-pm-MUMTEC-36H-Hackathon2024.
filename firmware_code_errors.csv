@@ -1,0 +1,6001 @@
+code_snippet,error_label
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with syntax_error.
+int main() {
+   int x = 5;
+   if(x > 0)  // Missing closing brace
+   return 0;
+}",Fix the syntax by checking parentheses and braces.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with memory_leak.
+int main() {
+   int* arr = new int[10];
+   // No delete[] arr; line
+   return 0;
+}",Use appropriate deallocation functions.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with out_of_bounds.
+int main() {
+   int arr[5];
+   arr[5] = 10;  // Out of bounds access
+   return 0;
+}",Check array indices to prevent overflow.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with null_pointer_exception.
+int main() {
+   int* p;
+   *p = 10;  // Dereferencing a null pointer
+   return 0;
+}",Ensure object is initialized before use.
+"// Example code with infinite_loop.
+int main() {
+   while(true) {
+       // Do something
+   return 0;
+}",Add a termination condition to the loop.
