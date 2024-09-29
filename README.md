@@ -35,6 +35,7 @@
 - **Tensorflow**: A free and open-source software library for machine learning and artificial intelligence.
 - **Pandas**: Software library written for the Python programming language for data manipulation and analysis.
 - **NumPy**: Built-in library adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+- **Scikit-learn**: A free and open-source machine learning library for the Python programming language.
 
 #### Blockchain-Based Identity Management System
 - **Solidity**: A high-level programming language for writing smart contracts on the Ethereum blockchain.
@@ -55,6 +56,7 @@
    pip install tensorflow
    pip install sentence_transformer
    pip install panda
+   pip install -U scikit-learn
    ```
 2. **Install csv file**
    Ensure the firmware_code_errors.csv is also installed from this repository.
